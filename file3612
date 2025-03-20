@@ -10,7 +10,7 @@ Switched to a new branch 'dev'
 PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git add .
 PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git commit -m "dev  c1"
 On branch dev
-nothing to commit, working tree clean
+nothing to commit, working working tree1
 PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git log --oneline
 97cce93 (HEAD -> dev, main) master c1
 PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git checkout master
