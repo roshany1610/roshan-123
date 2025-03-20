@@ -1,0 +1,22 @@
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git init
+Reinitialized existing Git repository in C:/Users/India/OneDrive/Desktop/New folder (3)/roshan-project/roshan-123/.git/
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git add .
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git commit -m "master c1"
+[main (root-commit) 97cce93] master c1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test1.txt
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git checkout -b dev
+Switched to a new branch 'dev'
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git add .
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git commit -m "dev  c1"
+On branch dev
+nothing to commit, working tree clean
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git log --oneline
+97cce93 (HEAD -> dev, main) master c1
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> git checkout dev
+Already on 'dev'
+PS C:\Users\India\OneDrive\Desktop\New folder (3)\roshan-project\roshan-123> 
